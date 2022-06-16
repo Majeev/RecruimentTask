@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  height: 100vh;
+}
+#wrapper,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrapper {
+  height: 40%;
+  border: 3px solid black;
+}
+
+.fiveAndOver,
+.belowFive {
+  height: 80%;
+  white-space: nowrap;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  border: 3px solid green;
+  margin: 50px;
+}
+.belowFive {
+  border: 3px solid red;
+}
